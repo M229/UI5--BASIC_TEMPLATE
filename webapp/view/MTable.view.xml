@@ -1,0 +1,13 @@
+<mvc:View
+	controllerName="sap.ui.demo.MyApp.controller.MTable"
+	displayBlock="true"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc">
+	<Page
+		id="page"
+		title="{i18n>mtable}">
+		<content>
+			<Button text="{i18n>mtableNavBtnTitle}" press="onPressNavBtn"></Button>
+		</content>
+	</Page>
+</mvc:View>
